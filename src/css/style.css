@@ -1,0 +1,257 @@
+:root {
+  --bg-body: #e5e5e5;
+  --color-default: #7d3c98;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-body);
+}
+
+/* Navbar Style */
+.navbar {
+  z-index: 4;
+}
+
+* {
+  z-index: 3;
+}
+.button-daftar {
+  border: none;
+  background-color: transparent;
+  width: 118px;
+  height: 34px;
+  color: #fff;
+}
+
+.button-masuk {
+  background-color: #fff;
+  color: var(--color-default);
+  font-weight: 700;
+  width: 118px;
+  height: 34px;
+  border: 1px solid #cedadc;
+}
+
+.nav-link .active {
+  font-weight: 700;
+}
+
+.nav-color {
+  background-color: var(--color-default);
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  width: 100%;
+  /* background-color: var(--color-default); */
+  background: linear-gradient(160deg, var(--color-default), #000);
+}
+
+#hero .img-hero {
+  height: 90%;
+  z-index: 1;
+}
+#hero h1 {
+  font-size: 48px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #fff;
+}
+#hero span {
+  font-weight: 700;
+}
+
+#hero p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 485px;
+}
+
+#hero .button-hero {
+  color: var(--color-default);
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+/* section layanan */
+#layanan {
+  height: 100%;
+  width: 100%;
+  padding: 100px 0;
+}
+
+#layanan .layanan-title h1 {
+  color: var(--color-default);
+  font-weight: 600;
+}
+
+#layanan .layanan-title p {
+  color: #000;
+  font-size: 18px;
+}
+
+#layanan .card-layanan {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.01);
+}
+
+#layanan .icon-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-default);
+}
+
+.card-layanan h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-default);
+}
+.card-layanan p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* section search */
+#search {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/bg-interior2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#search .overlay {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#search h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#search p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#search .nav-link.active {
+  color: var(--color-default);
+  background-color: #fff;
+}
+
+#search .nav-link {
+  color: #000;
+  background: rgba(247, 243, 243, 0.4);
+  border: 1px solid rgb(212, 210, 210, 0.4);
+
+  height: 42px;
+  width: 158px;
+}
+
+#search .input-cari .button-dropdown {
+  height: 88px;
+  width: 158px;
+  background-color: #fff;
+  border: none;
+  color: var(--color-default);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#search input {
+  color: var(--color-default);
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+#search .button-cari {
+  background-color: var(--color-default);
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  width: 141px;
+  border-radius: 0 10px 10px 0;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+#search .button-tipe {
+  border-radius: 0 0 0 10px;
+}
+
+#search .button-jual {
+  border-radius: 10px 0 0 0;
+}
+#search .button-baru {
+  border-radius: 0 10px 0 0;
+}
+
+#search .button-sewa {
+  border-radius: 0;
+}
+
+/* Section Rekomendasi */
+#rekomendasi {
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+}
+
+#rekomendasi .card {
+  height: 460px;
+}
+
+#rekomendasi h1 {
+  color: var(--color-default);
+  font-weight: 600;
+}
+
+#rekomendasi .card h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+}
+#rekomendasi .card img {
+  border-radius: 3px;
+}
+
+#rekomendasi .card p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+#rekomendasi .card p span {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#rekomendasi .card-fasilitas {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+}
+
+#rekomendasi .card-fasilitas span {
+  font-size: 16px;
+  font-weight: 400;
+}
+#rekomendasi .card-fasilitas span p {
+  font-size: 12px;
+  font-weight: 400;
+}

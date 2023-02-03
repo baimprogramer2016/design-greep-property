@@ -1,0 +1,27 @@
+/* Desktop kebawah */
+@media screen and (max-width: 922px) {
+  .img-hero {
+    width: 95%;
+    height: auto;
+  }
+}
+
+/* Pad */
+@media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 350px) {
+}
